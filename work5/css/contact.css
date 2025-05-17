@@ -1,0 +1,92 @@
+header {
+  display: flex;
+  margin: 30px;
+  margin-left: 66px;
+}
+
+.nav-link {
+  font-size: 26px;
+  font-weight: 700;
+  color: #8d81ff;
+  line-height: 100%;
+}
+
+.navigation li {
+  display: inline;
+  margin: 50px;
+}
+
+  .active {
+    color: #4e6fae;
+  }
+  
+  .info{
+    font-weight: 700;
+    font-size: 32px;
+    color: #4e6fae;
+  }
+
+  main{
+      display: flex;
+    }
+    
+    .contact{
+      font-family: "BPG ExtraSquare", sans-serif;
+      width: 100%;
+        gap: 20px;
+        padding-top: 93px;
+        background-color: #E7E7E7;
+        padding-left: 162px;
+        display: flex;
+        flex-direction: row;
+    }
+    .phone {
+        content: '';
+        color: #7E8898;
+        font-size: 20px;
+    }
+    .phone::after {
+        content: ' +995 32 222 222';
+        color: black;
+    }
+    .email {
+        content: '';
+        color: #7E8898;
+        font-size: 20px
+    }
+    .email::after {
+        content: ' Educationprogram@geolab.edu.ge';
+        color: black;
+    }
+    .address {
+        content: '';
+        color: #7E8898;
+        font-size: 20px;
+    }
+    .address::after {
+        content: ' პეტრიაშვილის ქ.30';
+        color: black;
+    }
+    .iframe{
+      margin-left: 200px;
+      padding-bottom: 60px;
+      background-color: #E7E7E7;
+      display: flex;
+      width: 944px;
+      height: 549px;
+    }
+  
+  .line {
+  display: inline-block;
+  width: 2px;
+  height: 48px;
+  background-color: #5012d5;
+}
+  
+  footer {
+  margin-top: 96px;
+  margin-left: 96px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
